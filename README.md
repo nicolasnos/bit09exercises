@@ -1,6 +1,6 @@
 Nombre: bit 09
 
 Autor: Nicolas Olmos
-bit 07 "https://github.com/nicolasnos/bit07me"
+bit 07 "https://bit09.netlify.app/"
 
-para arrancar el proyecto "usa npm run dev"
+para arrancar el proyecto usa "npm run dev"
