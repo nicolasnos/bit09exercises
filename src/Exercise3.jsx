@@ -37,7 +37,7 @@ const Exercise3 = () => {
         false
       )}
       <Button variant="outline-primary" onClick={callingApi}>
-        Exercise3
+        Pintar Pato
       </Button>
     </div>
   );
