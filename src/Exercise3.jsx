@@ -24,7 +24,10 @@ const Exercise3 = () => {
   };
 
   return (
-    <div className="py-4 text-center">
+    <div className="py-4 text-center d-flex flex-column">
+      <Button variant="outline-primary" onClick={callingApi}>
+        Pintar Pato
+      </Button>
       {error ? (
         <Alert variant="danger">
           <p>ocurrio un error</p>
@@ -32,13 +35,16 @@ const Exercise3 = () => {
       ) : loading ? (
         <Spinner animation="grow" variant="success" />
       ) : image ? (
-        <Image thumbnail src={image} width={200} alt="imagen de la api" />
+        <Image
+          thumbnail
+          src={image}
+          width={200}
+          height={350}
+          alt="imagen de la api"
+        />
       ) : (
         false
       )}
-      <Button variant="outline-primary" onClick={callingApi}>
-        Pintar Pato
-      </Button>
     </div>
   );
 };

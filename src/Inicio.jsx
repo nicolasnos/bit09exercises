@@ -8,7 +8,7 @@ const Inicio = () => {
         <img
           width={"350px"}
           className="rounded mx-auto"
-          src="../public/imagen.jpeg"
+          src="/imagen.jpeg"
           alt="foto de Nicolas"
         />
         <figcaption className="figure-caption text-center">
